@@ -1,0 +1,11 @@
+pipeline {
+agent any
+stages {
+stage ('clone') {
+steps
+{
+git branch: 'main', url: 'https://github.com/Quan1906-code/git_c3.git'
+}
+}
+}
+}
